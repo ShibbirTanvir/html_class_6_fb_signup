@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/fb-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+
+/*form start*/
+.section{
+	padding: 180px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 22%;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px 0 #d9d9d9;
+	background-color: white;
+}
+.formwrapper{}
+.form{}
+
+
+h1{
+	margin: 5px 0;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+p{
+	margin: 5px 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #828891;
+	line-height: 16px;
+}
+
+hr{
+	margin: 20px -20px;
+	border: none;
+	border-top: 1px solid #e6e8ea;
+}
+
+.inputtext{
+	margin-right: 14px;
+	padding: 0 7px;
+	width: 44%;
+	height: 35px;
+	background-color: #f5f6f7;
+	border: 1px solid #e6e8ea;
+	border-radius: 3px;
+}
+
+#inputtext{
+	margin-right: 0;
+}
+
+input:focus{
+	outline: none;
+}
+
+.inputemail{
+	background-color: #f5f6f7;
+	padding: 0 7px;
+	width: 96%;
+	height: 35px;
+	border: 1px solid #e6e8ea;
+	border-radius: 3px;
+}
+
+.inputpass{
+	background-color: #f5f6f7;
+	padding: 0 7px;
+	width: 96%;
+	height: 35px;
+	border: 1px solid #e6e8ea;
+	border-radius: 3px;
+}
+
+.date{
+	margin-right: 16px;
+	padding: 0 7px;
+	width: 30%;
+	height: 35px;
+	border: 1px solid #e6e8ea;
+	border-radius: 3px;
+}
+
+#years{
+	margin-right: 0;
+}
+
+.date:focue{
+	outline: none;
+}
+
+.rediowrapper{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.redio{
+	margin-right: 45px;
+	float: left;
+	padding: 7px;
+	height: 20px;
+	border: 1px solid #e6e8ea;
+	border-radius: 3px;
+}
+
+.rediospan{
+	margin-right: 20px;
+}
+
+#lastredio{
+	margin-right: 0;
+}
+
+button{
+	margin: 15px auto 0;
+	display: block;
+	width: 160px;
+	height: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	background-color: #00a900;
+	transition: .3s;
+}
+
+button:hover{
+	color: #eaecef;
+	background-color: #119f16;
+}
+/*form end*/
